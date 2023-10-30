@@ -1,0 +1,116 @@
+/*---------------------------- 
+Place Common Button Here Start
+------------------------------ */
+button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.625rem;
+  background-color: #3d4ff3;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+  text-transform: uppercase;
+}
+/*--------------------- 
+Place Navbar Here Start
+----------------------- */
+header {
+  background-color: #fff9f4;
+}
+.navbar img {
+  width: 13rem;
+  height: 3rem;
+}
+.banner {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.banner img {
+  width: 25.4375rem;
+  height: 25.4375rem;
+}
+/*------------------- 
+Place Navbar Here End
+--------------------- */
+
+/*-------------------------- 
+Place Casul-Shoes Here Start
+---------------------------- */
+.casul-shoes .img-card {
+  width: 23.125rem;
+  height: 34.375rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.casul-shoes .img-fluid {
+  width: 20.875rem;
+  height: 20.4375rem;
+  border-radius: 1.25rem;
+  background: #f1f1f1;
+  margin: auto;
+  margin-top: 0.9375rem;
+}
+
+/*------------------------- 
+Place Casul-Shoes Here End
+-------------------------- */
+
+/*---------------------------
+Place Formal-Shoes Here Start
+----------------------------- */
+.formal-shoes .img-card {
+  width: 23.125rem;
+  height: 34.375rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.formal-shoes .img-fluid {
+  width: 20.875rem;
+  height: 20.4375rem;
+}
+/*------------------------- 
+Place Formal-Shoes Here End
+-------------------------- */
+
+/*-------------------
+Place Null Here Start
+--------------------- */
+.null .null-content img {
+  width: 5rem;
+  height: 5rem;
+}
+/*------------------
+Place Null Here End
+-------------------- */
+
+/*-------------------------------------------
+Place Media Quary (max-width: 768px) Here End
+--------------------------------------------- */
+@media (max-width: 768px) {
+  .banner .banner-content {
+    flex-direction: column-reverse;
+  }
+  .casul-shoes .img-card {
+    margin-top: 2rem;
+  }
+  .casul-shoes h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .formal-shoes .img-card {
+    margin-top: 2rem;
+  }
+  .formal-shoes h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .null-items {
+    margin-bottom: 2rem;
+  }
+  .null .null-contents {
+    flex-direction: column-reverse;
+  }
+}
